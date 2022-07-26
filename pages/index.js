@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react";
 import User from "../Components/User/User";
+import UserList from "../Components/User/UserList";
 import posts from "../data/post.json";
 function Home() {
 
@@ -72,7 +73,8 @@ function Home() {
                     </div>
                     <div className="col-xl-3">
                         <div className="user-list">
-                            <User/>
+                            {/* <User/> */}
+                            <UserList/>
                         </div>
                     </div>
                 </div>
