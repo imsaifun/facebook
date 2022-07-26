@@ -1,66 +1,37 @@
 [
 	{
-		"user": {
-			"username": "joe-adam",
-			"name": "Joe Adam",
-			"profile_picture": "/images/avatar/1.jpg"
-		},
-		"posts": [
-			{
-				"id": "8402678390264947303",
-				"user": {
-					"username": "adam",
-					"name": "Adam",
-					"profile_picture": "/images/avatar/1.jpg"
-				},
-				"title": "This is post title One",
-				"posted_on": "1617220982",
-				"likes": 10,
-				"liked": true,
-				"comments": [
-					{
-						"text": "Hello!",
-						"created_at": "1617220982",
-						"user": {
-							"username": "adam",
-							"name": "Adam",
-							"profile_picture": "/images/avatar/1.jpg"
-						}
-					}
-				]
-			}
-		]
+		"id": "8402678390264947301",
+		"username": "adam",
+		"name": "Adam",
+		"profile_picture": "/images/avatar/1.jpg",
+		"online": true
 	},
 	{
-		"user": {
-			"username": "joe-adam",
-			"name": "Joe Adam",
-			"profile_picture": "/images/avatar/2.jpg"
-		},
-		"posts": [
-			{
-				"id": "8402678390264947303",
-				"user": {
-					"username": "adam",
-					"name": "Adam",
-					"profile_picture": "/images/avatar/2.jpg"
-				},
-				"title": "This is post title Two",
-				"posted_on": "1617220982",
-				"likes": 10,
-				"liked": true,
-				"comments": [
-					{
-						"text": "Hello!",
-						"created_at": "1617220982",
-						"user": {
-							"username": "adam",
-							"name": "Adam",
-							"profile_picture": "/images/avatar/2.jpg"
-						}
-					}
-				]
-			}
-		]
+		"id": "8402678390264947302",
+		"username": "adam",
+		"name": "Adam",
+		"profile_picture": "/images/avatar/2.jpg",
+		"online": false
+	},
+	{
+		"id": "8402678390264947303",
+		"username": "adam",
+		"name": "Adam",
+		"profile_picture": "/images/avatar/3.jpg",
+		"online": true
+	},
+	{
+		"id": "8402678390264947304",
+		"username": "adam",
+		"name": "Adam",
+		"profile_picture": "/images/avatar/4.jpg",
+		"online": false
+	},
+	{
+		"id": "8402678390264947305",
+		"username": "adam",
+		"name": "Adam",
+		"profile_picture": "/images/avatar/5.jpg",
+		"online": true
 	}
 ]
